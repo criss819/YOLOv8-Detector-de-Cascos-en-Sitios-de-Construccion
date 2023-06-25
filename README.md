@@ -27,7 +27,7 @@ pip install argparse
 ```
 ## Dataset (Opcional)
 
-Si deseas el dataset modificado, se encuentra en el repositorio, con el formato correcto que pide YOLO.
+Si deseas el [dataset](https://www.mediafire.com/file/7hrfq5i7hfv34ft/Dataset.rar/file) modificado, el link de descarga se encuentra en el repositorio, ya que es muy pesado para poder subirlo al repositorio.
 
 
 
