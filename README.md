@@ -66,6 +66,8 @@ yolo task=detect mode=train epochs=50 data=data.yaml model=yolov8m.pt imgsz=640 
 ```
 Epochs es la cantidad de veces que se va a analizar datos, aprender de ellos y utilizar estos puntos de aprendizaje para identificar patrones de interés.
 
-Data.yaml es un archivo que se encuentra dentro del dataset modificado, este archivo contiene la ubicación de las imágenes de entrenamiento y validación al igual que las clases que va a aprender.
+Data.yaml es un archivo que se encuentra dentro del [dataset](https://www.mediafire.com/file/7hrfq5i7hfv34ft/Dataset.rar/file) modificado, este archivo contiene la ubicación de las imágenes de entrenamiento y validación al igual que las clases que va a aprender.
+
+El dataset tampoco se puede subir al repositorio por ser muy pesado, sin embargo, si esta el link de descarga.
 
 Si deseas mas información, aquí esta el repositorio principal de [YOLOv8](https://github.com/ultralytics/ultralytics)
