@@ -11,10 +11,10 @@ Los pasos a seguir para poder iniciar la detección de objetos en videos, imáge
 
 Para el uso de YOLOv8 se requiere versiones superiores a Python 3.8 y PyTorch 1.7
 ```
-conda create -n yolov8_custom python=3.10
+conda create -n yolov8
 ```
 ```
-conda activate yolov8_custom
+conda activate yolov8
 ```
 
 ## Instalación de paquetes
