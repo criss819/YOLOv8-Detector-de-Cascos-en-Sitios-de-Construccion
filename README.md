@@ -33,7 +33,7 @@ Si deseas el dataset modificado, se encuentra en el repositorio, con el formato 
 
 ## Descargar el Modelo Entrenado
 
-El modelo entrenado es **hardhatv2.pt**, es necesario para poder detectar los cascos dentro de las construcciones.
+El modelo entrenado es [hardhatv2.pt](https://www.mediafire.com/file/64s3qg23nzxkb4i/hardhatv2.rar/file), es necesario para poder detectar los cascos dentro de las construcciones, al ser muy pesado no lo puedo subir al repositorio, sin embargo, si esta el link de descarga.
 
 ## Iniciar el Detector
 
