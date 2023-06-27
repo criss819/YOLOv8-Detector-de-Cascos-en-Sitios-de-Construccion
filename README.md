@@ -27,7 +27,7 @@ pip install argparse
 ```
 ## Dataset (Opcional)
 
-Si deseas el [dataset](https://www.mediafire.com/file/7hrfq5i7hfv34ft/Dataset.rar/file) modificado, el link de descarga se encuentra en el repositorio, ya que es muy pesado para poder subirlo al repositorio.
+Si deseas el [dataset](https://drive.google.com/file/d/1ZvJYR6KbkgBENAlARaVMZquTwuj3M2yB/view) modificado, el link de descarga se encuentra en el repositorio, ya que es muy pesado para poder subirlo al repositorio.
 
 
 
@@ -57,7 +57,11 @@ model = YOLO(args.modelo)
 
 model.predict(source=args.fuente, show=True, save=True, conf=0.5)
 ```
+## Resultados
 
+![Imagen antes de pasar por el detector](https://imgur.com/XhRwONb.jpg)
+
+![Imagen después de pasar por el detector](https://i.imgur.com/UO8basZ.jpg)
 ## Entrenar Modelo (Opcional)
 
 Si deseas entrenar tu mismo el modelo y usar el dataset modificado, se usa este código en el entorno creado:
@@ -66,7 +70,7 @@ yolo task=detect mode=train epochs=50 data=data.yaml model=yolov8m.pt imgsz=640 
 ```
 Epochs es la cantidad de veces que se va a analizar datos, aprender de ellos y utilizar estos puntos de aprendizaje para identificar patrones de interés.
 
-Data.yaml es un archivo que se encuentra dentro del [dataset](https://www.mediafire.com/file/7hrfq5i7hfv34ft/Dataset.rar/file) modificado, este archivo contiene la ubicación de las imágenes de entrenamiento y validación al igual que las clases que va a aprender.
+Data.yaml es un archivo que se encuentra dentro del [dataset](https://drive.google.com/file/d/1ZvJYR6KbkgBENAlARaVMZquTwuj3M2yB/view) modificado, este archivo contiene la ubicación de las imágenes de entrenamiento y validación al igual que las clases que va a aprender.
 
 El dataset tampoco se puede subir al repositorio por ser muy pesado, sin embargo, si esta el link de descarga.
 
