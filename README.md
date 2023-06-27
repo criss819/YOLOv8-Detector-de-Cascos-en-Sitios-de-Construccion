@@ -16,15 +16,23 @@ conda create -n yolov8
 ```
 conda activate yolov8
 ```
+Con estos comandos se creará y activará el entorno donde se trabajará con el detector.
 
 ## Instalación de paquetes
 
 ```
 pip install ultralytics
 ```
+Este comando instala el paquete "ultralytics", que es una biblioteca de Python para la detección de objetos. Incluye el modelo de detección de objetos YOLOv8, así como otras herramientas y utilidades para entrenar, validar e implementar modelos de detección de objetos.
 ```
 pip install argparse
 ```
+Este comando instala el módulo "argparse", que es un módulo de Python que facilita la escritura de interfaces en CLI. El módulo argparse proporciona una serie de características que facilitan el análisis de los argumentos que incluyen:
+ - La capacidad de especificar nombres de argumentos, tipos y valores predeterminados.
+ - La capacidad de generar mensajes de ayuda y uso.
+ - La capacidad de validar argumentos.
+
+
 ## Dataset (Opcional)
 
 Si deseas el [dataset](https://drive.google.com/file/d/1ZvJYR6KbkgBENAlARaVMZquTwuj3M2yB/view) modificado, el link de descarga se encuentra en el repositorio, ya que es muy pesado para poder subirlo al repositorio.
